@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   if (isClient()) {
     if (loginState === Pending) {
-      return getLayout(<Component {...pageProps} />)
+      return <div/> // I dont want to show page, just empty when checking login, return null will make it double render
     }
 
     return loginState === LoggedIn ? (
@@ -40,9 +40,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     );
   }
   // Un-comment this to see the error, this case is for case google crawl bot on server-side only, Or do you have a better suggestion for this SEO?
-  // if (loginState === Pending) {
-  //   return <LoginPage/>
-  // }
+  if (loginState === Pending) {
+    return <LoginPage/>
+  }
   return getLayout(<Component {...pageProps} />);
 }
 
