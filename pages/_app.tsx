@@ -41,6 +41,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
   // Un-comment this to see the error, this case is for case google crawl bot on server-side only, Or do you have a better suggestion for this SEO?
   if (loginState === Pending) {
+    // here,
+    // the loginState on SSR is always Pending in this architecture, so I check if route is public then return layout public otherwise return login layout
     return <LoginPage/>
   }
   return getLayout(<Component {...pageProps} />);
