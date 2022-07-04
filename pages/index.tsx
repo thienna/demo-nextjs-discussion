@@ -7,7 +7,7 @@ import MainLayout from "../layouts/MainLayout";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h1>Page index at /</h1>
+      <h1>Page home at /</h1>
     </div>
   )
 }
