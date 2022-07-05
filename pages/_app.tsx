@@ -51,6 +51,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   return getLayout(<Component {...pageProps} />);
 }
 //
-// MyApp.getInitialProps = () => {return {}}
+MyApp.getInitialProps = () => {return {}}
 
 export default MyApp
