@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import {useCallback, useEffect, useState} from "react";
 import LoginPage from './login'
+import {useRouter} from "next/router";
 
 const isClient = () =>
     typeof window !== "undefined" && typeof document !== "undefined";
@@ -25,8 +26,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   //   checkLogin();
   // }, [checkLogin, loginState]);
   //
-  // // @ts-ignore
+  // @ts-ignore
   const getLayout = Component.getLayout ?? ((page) => page);
+  const router = useRouter()
+  console.log('router', router)
   //
   // if (isClient()) {
   //   if (loginState === Pending) {
@@ -47,5 +50,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   // }
   return getLayout(<Component {...pageProps} />);
 }
+//
+// MyApp.getInitialProps = () => {return {}}
 
 export default MyApp
