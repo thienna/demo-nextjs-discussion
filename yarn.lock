@@ -46,10 +46,10 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
-"@next/env@12.2.0":
-  "integrity" "sha512-/FCkDpL/8SodJEXvx/DYNlOD5ijTtkozf4PPulYPtkPOJaMPpBSOkzmsta4fnrnbdH6eZjbwbiXFdr6gSQCV4w=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.2.0.tgz"
-  "version" "12.2.0"
+"@next/env@12.2.1-canary.3":
+  "integrity" "sha512-LCmL7pUSnrvqvxPPEAwAlrumz2K8blkFowlhJRn7VfYdnUq81H7Ude/VM4gcXygmG+wr8l+0G4q0u/DfF4DfkA=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.2.1-canary.3.tgz"
+  "version" "12.2.1-canary.3"
 
 "@next/eslint-plugin-next@12.1.6":
   "integrity" "sha512-yNUtJ90NEiYFT6TJnNyofKMPYqirKDwpahcbxBgSIuABwYOdkGwzos1ZkYD51Qf0diYwpQZBeVqElTk7Q2WNqw=="
@@ -58,10 +58,10 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-darwin-arm64@12.2.0":
-  "integrity" "sha512-x5U5gJd7ZvrEtTFnBld9O2bUlX8opu7mIQUqRzj7KeWzBwPhrIzTTsQXAiNqsaMuaRPvyHBVW/5d/6g6+89Y8g=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.2.0.tgz"
-  "version" "12.2.0"
+"@next/swc-darwin-arm64@12.2.1-canary.3":
+  "integrity" "sha512-TITtz/Ic5cSq/FL0btmEpeUFnzMr53wJL2xdfmBDKFuAQSttKO/vHjE9jZtt0vPeapoOuQ/+3U5N38HgdtgsCQ=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.2.1-canary.3.tgz"
+  "version" "12.2.1-canary.3"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -1157,31 +1157,31 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@>=10.2.0", "next@12.2.0":
-  "integrity" "sha512-B4j7D3SHYopLYx6/Ark0fenwIar9tEaZZFAaxmKjgcMMexhVJzB3jt7X+6wcdXPPMeUD6r09weUtnDpjox/vIA=="
-  "resolved" "https://registry.npmjs.org/next/-/next-12.2.0.tgz"
-  "version" "12.2.0"
+"next@^12.2.1-canary.3", "next@>=10.2.0":
+  "integrity" "sha512-zHZvy2QoTmdtEBhJT64wXh38s0uE/sgtQgY/gL6Fn5/hmeyHKP+hovQMYXMa/wJtnCJHdBUmyhikmW+MLRZV0A=="
+  "resolved" "https://registry.npmjs.org/next/-/next-12.2.1-canary.3.tgz"
+  "version" "12.2.1-canary.3"
   dependencies:
-    "@next/env" "12.2.0"
+    "@next/env" "12.2.1-canary.3"
     "@swc/helpers" "0.4.2"
     "caniuse-lite" "^1.0.30001332"
     "postcss" "8.4.5"
     "styled-jsx" "5.0.2"
     "use-sync-external-store" "1.1.0"
   optionalDependencies:
-    "@next/swc-android-arm-eabi" "12.2.0"
-    "@next/swc-android-arm64" "12.2.0"
-    "@next/swc-darwin-arm64" "12.2.0"
-    "@next/swc-darwin-x64" "12.2.0"
-    "@next/swc-freebsd-x64" "12.2.0"
-    "@next/swc-linux-arm-gnueabihf" "12.2.0"
-    "@next/swc-linux-arm64-gnu" "12.2.0"
-    "@next/swc-linux-arm64-musl" "12.2.0"
-    "@next/swc-linux-x64-gnu" "12.2.0"
-    "@next/swc-linux-x64-musl" "12.2.0"
-    "@next/swc-win32-arm64-msvc" "12.2.0"
-    "@next/swc-win32-ia32-msvc" "12.2.0"
-    "@next/swc-win32-x64-msvc" "12.2.0"
+    "@next/swc-android-arm-eabi" "12.2.1-canary.3"
+    "@next/swc-android-arm64" "12.2.1-canary.3"
+    "@next/swc-darwin-arm64" "12.2.1-canary.3"
+    "@next/swc-darwin-x64" "12.2.1-canary.3"
+    "@next/swc-freebsd-x64" "12.2.1-canary.3"
+    "@next/swc-linux-arm-gnueabihf" "12.2.1-canary.3"
+    "@next/swc-linux-arm64-gnu" "12.2.1-canary.3"
+    "@next/swc-linux-arm64-musl" "12.2.1-canary.3"
+    "@next/swc-linux-x64-gnu" "12.2.1-canary.3"
+    "@next/swc-linux-x64-musl" "12.2.1-canary.3"
+    "@next/swc-win32-arm64-msvc" "12.2.1-canary.3"
+    "@next/swc-win32-ia32-msvc" "12.2.1-canary.3"
+    "@next/swc-win32-x64-msvc" "12.2.1-canary.3"
 
 "object-assign@^4.1.1":
   "integrity" "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM="
@@ -1356,23 +1356,23 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.1.0":
-  "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
-  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
-  "version" "18.1.0"
+"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.2.0":
+  "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+  "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
-    "scheduler" "^0.22.0"
+    "scheduler" "^0.23.0"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
-  "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
-  "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
-  "version" "18.1.0"
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0":
+  "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
+  "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
 
@@ -1436,10 +1436,10 @@
   dependencies:
     "queue-microtask" "^1.2.2"
 
-"scheduler@^0.22.0":
-  "integrity" "sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ=="
-  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.22.0.tgz"
-  "version" "0.22.0"
+"scheduler@^0.23.0":
+  "integrity" "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"
+  "version" "0.23.0"
   dependencies:
     "loose-envify" "^1.1.0"
 
