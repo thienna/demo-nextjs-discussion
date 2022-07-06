@@ -16,6 +16,7 @@ export default async function middleware(req: NextRequest) {
     const isLoggedIn = req.cookies.get('logged_in')
     console.log('isLoggedIn:', isLoggedIn)
     if (!isLoggedIn) {
+        console.log('NOT logged in')
         return NextResponse.rewrite(new URL(`/login`, req.url)) // rewrite login page
     }
 
@@ -25,5 +26,6 @@ export default async function middleware(req: NextRequest) {
         return NextResponse.redirect(new URL(`/`, req.url))
     }
 
+    console.log('logged in')
     return NextResponse.next()
 }

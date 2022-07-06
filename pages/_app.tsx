@@ -29,7 +29,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   // @ts-ignore
   const getLayout = Component.getLayout ?? ((page) => page);
   const router = useRouter()
-  console.log('router', router)
   //
   // if (isClient()) {
   //   if (loginState === Pending) {

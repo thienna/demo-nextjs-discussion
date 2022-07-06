@@ -2,7 +2,6 @@ import type {NextPage} from 'next'
 import styles from '../styles/Home.module.css'
 import MainLayout from "../layouts/MainLayout";
 import {useRouter} from "next/router";
-import Login from "./login";
 
 const Home: NextPage = () => {
     const router = useRouter()
